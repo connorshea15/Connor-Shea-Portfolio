@@ -1,0 +1,22 @@
+/* This is Where I will Style My Portfolio! */
+
+section {
+    height: 500px;
+}
+
+.hero {
+    background-image: url("../images/connor-picture.PNG");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+}
