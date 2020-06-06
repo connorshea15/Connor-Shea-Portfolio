@@ -1,9 +1,14 @@
 /* This is Where I will Style My Portfolio! */
 
 section {
-    height: 500px;
+    padding: 20px;
 }
 
+* {
+    color: #48697c;
+}
+
+/* Begin Styling the Header */
 header {
     padding: 0px 30px 20px 0;
     background-color: #282726;
@@ -44,6 +49,7 @@ header nav ul li a {
     border-bottom: 3px solid;
     font-size: 22px;
 }
+/* End Styling the Header */
 
 .hero {
     background-image: url("../images/connor-picture.PNG");
@@ -52,8 +58,46 @@ header nav ul li a {
     background-attachment: fixed;
     background-position: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
+.hero h2 {
+    background-color: #a1d6da;
+    color:  #282726;
+}
+
+
+/* Begin Styling the About Me Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.section-title {
+    width: 20%;
+    border-right: 3px solid;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 36px;
+}
+
+.right-info {
+    width: 70%;
+    padding-left: 25px;
+}
+
+.about div {
+    line-height: 1.3;
+}
