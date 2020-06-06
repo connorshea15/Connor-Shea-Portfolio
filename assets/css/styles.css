@@ -4,6 +4,47 @@ section {
     height: 500px;
 }
 
+header {
+    padding: 0px 30px 20px 0;
+    background-color: #282726;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header h1 {
+    background-color: #a1d6da;
+    color: #282726;
+    padding: 5px 5px 5px 100px;
+    font-weight: bold;
+    font-size: 40px;
+    margin:0;
+}
+
+header a {
+    text-decoration: none;
+    color: #a1d6da;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    padding: 0 5px 5px 5px;
+    border-bottom: 3px solid;
+    font-size: 22px;
+}
+
 .hero {
     background-image: url("../images/connor-picture.PNG");
     background-size: cover;
@@ -16,7 +57,3 @@ section {
     align-items: flex-start;
 }
 
-h1 {
-    color: white;
-    background-color: black;
-}
