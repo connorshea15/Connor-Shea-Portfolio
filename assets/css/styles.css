@@ -110,6 +110,8 @@ section {
 /* Start Work Styling */
 .item1 {
     background-image: url("../images/run-buddy-image.JPG");
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
 }
 
 .item2 {
@@ -128,6 +130,15 @@ section {
     background-image: url("../images/google-image.JPG");
 }
 
+.work-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
 .work-grid-item {
     display: flex;
     flex-wrap: wrap;
@@ -135,8 +146,6 @@ section {
     align-items: flex-end;
     border: 3px solid #a1d6da;
     padding: 0 0 15px 0;
-    height: 100px;
-    width: 200px;
 }
 
 .item-description {
