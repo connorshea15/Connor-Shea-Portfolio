@@ -101,3 +101,25 @@ section {
 .about div {
     line-height: 1.3;
 }
+
+
+
+
+/* Begin Styling for Contact Section */
+/* Here I Need to Change Align-Items for this specific Section */
+.contact {
+    align-items: center;
+}
+
+.contact-details ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-details ul li {
+    border-bottom: 3px solid;
+    font-size: 18px;
+}
