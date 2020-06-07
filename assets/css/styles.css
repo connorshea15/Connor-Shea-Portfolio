@@ -1,5 +1,9 @@
 /* This is Where I will Style My Portfolio! */
 
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 section {
     padding: 20px;
 }
@@ -58,9 +62,9 @@ header nav ul li a {
 .hero {
     background-image: url("../images/connor-picture.PNG");
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: center;
+    padding: 25% 5% 3% 0;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -70,6 +74,7 @@ header nav ul li a {
 .hero h2 {
     background-color: #a1d6da;
     color:  #282726;
+    padding: 2px;
 }
 
 
@@ -138,14 +143,14 @@ section {
     row-gap: 10px;
 }
 
-
 .work-grid-item {
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-end;
     border: 3px solid #a1d6da;
-    padding: 0 0 15px 0;
+    padding: 25% 0 15px 0;
 }
 
 .item-description {
@@ -157,11 +162,6 @@ section {
     font-weight: bold;
     color: #282726;
 }
-
-
-
-
-
 /* End Work Styling */
 
 
