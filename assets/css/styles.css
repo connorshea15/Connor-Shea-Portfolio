@@ -116,12 +116,24 @@ section {
     background-image: url("../images/horiseon-image.JPG");
 }
 
+.item3 {
+    background-image: url("../images/welcome-session-image.JPG");
+}
+
+.item4 {
+    background-image: url("../images/portfolio-image.JPG");
+}
+
+.item5 {
+    background-image: url("../images/google-image.JPG");
+}
+
 .work-grid-item {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-end;
-    border: 5px solid #a1d6da;
+    border: 3px solid #a1d6da;
     padding: 0 0 15px 0;
     height: 100px;
     width: 200px;
@@ -130,6 +142,11 @@ section {
 .item-description {
     background-color: #a1d6da;
     line-height: 0;
+}
+
+.item-description h4 {
+    font-weight: bold;
+    color: #282726;
 }
 
 
