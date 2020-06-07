@@ -8,6 +8,10 @@ section {
     color: #48697c;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Begin Styling the Header */
 header {
     padding: 0px 30px 20px 0;
