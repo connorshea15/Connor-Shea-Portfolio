@@ -103,6 +103,38 @@ section {
 }
 
 
+/* Start Work Styling */
+.item1 {
+    background-image: url("../images/run-buddy-image.JPG");
+}
+
+.item2 {
+    background-image: url("../images/horiseon-image.JPG");
+}
+
+.work-grid-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: 5px solid #a1d6da;
+    padding: 0 0 15px 0;
+    height: 100px;
+    width: 200px;
+}
+
+.item-description {
+    background-color: #a1d6da;
+    line-height: 0;
+}
+
+
+
+
+
+/* End Work Styling */
+
+
 
 
 /* Begin Styling for Contact Section */
@@ -123,3 +155,4 @@ section {
     border-bottom: 3px solid;
     font-size: 18px;
 }
+/* End the Contact Styling */
