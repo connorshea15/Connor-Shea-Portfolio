@@ -57,6 +57,11 @@ header nav ul li a {
     border-bottom: 3px solid;
     font-size: 22px;
 }
+
+header nav ul li a:hover {
+    background-color: #a1d6da;
+    color: #282726;
+}
 /* End Styling the Header */
 
 .hero {
