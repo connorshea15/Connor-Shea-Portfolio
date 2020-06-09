@@ -8,10 +8,10 @@ To showcase my amazing skills.
 * CSS
 
 ## Mockup
-![](./assets/images/mockup.jpg)
+![](/assets/images/mockup.JPG)
 
 ## Website
-https://connorshea15.github.io/Connor-Shea-Portfolio/#about-me
+https://connorshea15.github.io/Connor-Shea-Portfolio/
 
 ## Contribution
 Made by Connor Shea
