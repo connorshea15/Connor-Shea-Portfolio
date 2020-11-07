@@ -118,7 +118,7 @@ header nav ul li a:hover {
 
 /* Start Work Styling */
 .item1 {
-    background-image: url("../images/design-designator-image.JPG");
+    background-image: url("../images/music-matchbox.JPG");
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
@@ -132,7 +132,7 @@ header nav ul li a:hover {
 }
 
 .item4 {
-    background-image: url("../images/portfolio.JPG");
+    background-image: url("../images/design-designator-image.JPG");
 }
 
 .item5 {
